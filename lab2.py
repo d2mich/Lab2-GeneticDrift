@@ -7,6 +7,9 @@
 ###############################################
 
 #pulling this over from the Jupyter notebook
+import numpy as np
+from matplotlib import pyplot as plt
+
 pop_size = 20
 num_mutants = 5
 num_generations = 10
