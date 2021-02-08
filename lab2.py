@@ -10,6 +10,10 @@
 import numpy as np
 from matplotlib import pyplot as plt
 
+#define our mutant frequency helper function
+def mutant_freq(a_population):
+    return sum(a_population)/len(a_population)
+
 pop_size = 20
 num_mutants = 5
 num_generations = 10
