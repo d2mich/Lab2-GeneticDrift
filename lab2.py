@@ -16,7 +16,7 @@ def mutant_freq(a_population):
 
 pop_size = 20
 num_mutants = 5
-num_generations = 10
+num_generations = 20
 
 mutation_frequency_list = []
 population = np.zeros(pop_size)
